@@ -1,0 +1,566 @@
+{
+  "name": "standard",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "::CMSIS",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "AHRS",
+        "files": [
+          {
+            "path": "../Mylib/AHRS/AHRS.lib"
+          },
+          {
+            "path": "../Mylib/AHRS/AHRS_middleware.c"
+          },
+          {
+            "path": "../Mylib/AHRS/ist8310driver.c"
+          },
+          {
+            "path": "../Mylib/AHRS/ist8310driver_middleware.c"
+          },
+          {
+            "path": "../Mylib/AHRS/mpu6500driver.c"
+          },
+          {
+            "path": "../Mylib/AHRS/mpu6500driver_middleware.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "APP",
+        "files": [
+          {
+            "path": "../APP/pid.c"
+          },
+          {
+            "path": "../APP/can_rec.c"
+          },
+          {
+            "path": "../APP/chassis_behaviour.c"
+          },
+          {
+            "path": "../APP/gimbal_behaviour.c"
+          },
+          {
+            "path": "../APP/function.c"
+          },
+          {
+            "path": "../APP/shoot_behaviour.c"
+          },
+          {
+            "path": "../APP/vision_behaviour.c"
+          },
+          {
+            "path": "../APP/judge_behaviour.c"
+          },
+          {
+            "path": "../APP/UI_behaviour.c"
+          },
+          {
+            "path": "../APP/check_crc.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "freeRTOS",
+        "files": [
+          {
+            "path": "../FreeRTOS/croutine.c"
+          },
+          {
+            "path": "../FreeRTOS/event_groups.c"
+          },
+          {
+            "path": "../FreeRTOS/list.c"
+          },
+          {
+            "path": "../FreeRTOS/queue.c"
+          },
+          {
+            "path": "../FreeRTOS/tasks.c"
+          },
+          {
+            "path": "../FreeRTOS/timers.c"
+          },
+          {
+            "path": "../FreeRTOS/portable/MemMang/heap_4.c"
+          },
+          {
+            "path": "../FreeRTOS/portable/RVDS/ARM_CM4F/port.c"
+          },
+          {
+            "path": "../Libaries/FreeRTOS_middleware.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "hardware",
+        "files": [
+          {
+            "path": "../Mylib/adc.c"
+          },
+          {
+            "path": "../Mylib/buzzer.c"
+          },
+          {
+            "path": "../Mylib/can.c"
+          },
+          {
+            "path": "../Mylib/dac.c"
+          },
+          {
+            "path": "../Mylib/delay.c"
+          },
+          {
+            "path": "../Mylib/exit_init.c"
+          },
+          {
+            "path": "../Mylib/flash.c"
+          },
+          {
+            "path": "../Mylib/laser.c"
+          },
+          {
+            "path": "../Mylib/led.c"
+          },
+          {
+            "path": "../Mylib/power_ctrl.c"
+          },
+          {
+            "path": "../Mylib/rc.c"
+          },
+          {
+            "path": "../Mylib/rng.c"
+          },
+          {
+            "path": "../Mylib/spi.c"
+          },
+          {
+            "path": "../Mylib/sys.c"
+          },
+          {
+            "path": "../Mylib/timer.c"
+          },
+          {
+            "path": "../Mylib/user_lib.c"
+          },
+          {
+            "path": "../Mylib/remote_control.c"
+          },
+          {
+            "path": "../Mylib/func_lib.c"
+          },
+          {
+            "path": "../Mylib/uart_vofa.c"
+          },
+          {
+            "path": "../Mylib/icm20602.c"
+          },
+          {
+            "path": "../Mylib/usart_judge.c"
+          },
+          {
+            "path": "../Mylib/usart6_vision.c"
+          },
+          {
+            "path": "../Mylib/mag_pwm.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "HELPS",
+        "files": [],
+        "folders": []
+      },
+      {
+        "name": "Libaries",
+        "files": [
+          {
+            "path": "../Libaries/startup/startup_stm32f427xx.s"
+          },
+          {
+            "path": "../Libaries/CMSIS/stm32f4xx_it.c"
+          },
+          {
+            "path": "../Libaries/CMSIS/system_stm32f4xx.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/misc.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_adc.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_can.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_cec.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_crc.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_cryp.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_cryp_aes.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_cryp_des.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_cryp_tdes.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_dac.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_dbgmcu.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_dcmi.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_dfsdm.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_dma.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_dma2d.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_dsi.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_exti.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_flash.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_flash_ramfunc.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_fmc.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_fmpi2c.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_gpio.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_hash.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_hash_md5.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_hash_sha1.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_i2c.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_iwdg.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_lptim.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_ltdc.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_pwr.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_qspi.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_rcc.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_rng.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_rtc.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_sai.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_sdio.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_spdifrx.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_spi.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_syscfg.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_tim.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_usart.c"
+          },
+          {
+            "path": "../Libaries/FWLIB/src/stm32f4xx_wwdg.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "main",
+        "files": [
+          {
+            "path": "../main/main.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Tasks",
+        "files": [
+          {
+            "path": "../Tasks/start_task.c"
+          },
+          {
+            "path": "../Tasks/user_task.c"
+          },
+          {
+            "path": "../Tasks/rc_task.c"
+          },
+          {
+            "path": "../Tasks/vofa_task.c"
+          },
+          {
+            "path": "../Tasks/calibrate_task.c"
+          },
+          {
+            "path": "../Tasks/INS_task.c"
+          },
+          {
+            "path": "../Tasks/chassis_task.c"
+          },
+          {
+            "path": "../Tasks/gimbal_task.c"
+          },
+          {
+            "path": "../Tasks/shoot_task.c"
+          },
+          {
+            "path": "../Tasks/icm20602_task.c"
+          },
+          {
+            "path": "../Tasks/UI_Send_task.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": "STM32F427IIHx",
+  "packDir": ".pack/Keil/STM32F4xx_DFP.2.14.0",
+  "miscInfo": {
+    "uid": "580c3bd4e64ef7d576dfa2c4eec3cc1b"
+  },
+  "targets": {
+    "standard": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "",
+        "useCustomScatterFile": false,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x30000"
+              },
+              "isChecked": true,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x10000000",
+                "size": "0x10000"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x8000000",
+                "size": "0x200000"
+              },
+              "isChecked": true,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "STLink",
+      "uploadConfig": {
+        "bin": "",
+        "proType": "SWD",
+        "resetMode": "default",
+        "runAfterProgram": true,
+        "speed": 4000,
+        "address": "0x8000000",
+        "elFile": "None",
+        "optionBytes": ".eide/standard.st.option.bytes.ini",
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../Libaries/CMSIS",
+          "../Libaries/FWLIB/inc",
+          "../Libaries",
+          "../FreeRTOS",
+          "../FreeRTOS/include",
+          "../FreeRTOS/portable",
+          "../FreeRTOS/portable/MemMang",
+          "../FreeRTOS/portable/RVDS/ARM_CM4F",
+          "../Libaries/startup",
+          "../Libaries/DSP/Include",
+          "../main",
+          "../Mylib/AHRS",
+          "../Mylib",
+          "../APP",
+          "../Tasks",
+          "RTE/_standard"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": [
+          "STM32F427X",
+          "USE_STDPERIPH_DRIVER",
+          "__FPU_USED",
+          "__FPU_PRESENT",
+          "ARM_MATH_CM4",
+          "__CC_ARM",
+          "ARM_MATH_MATRIX_CHECK",
+          "ARM_MATH_ROUNDING",
+          "USE_STDPERIPH_DRIVER"
+        ]
+      }
+    }
+  },
+  "version": "3.3"
+}

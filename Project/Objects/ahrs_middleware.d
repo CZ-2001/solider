@@ -1,0 +1,12 @@
+.\objects\ahrs_middleware.o: ..\Mylib\AHRS\AHRS_middleware.c
+.\objects\ahrs_middleware.o: ..\Mylib\AHRS\AHRS_MiddleWare.h
+.\objects\ahrs_middleware.o: ..\Mylib\AHRS\AHRS.h
+.\objects\ahrs_middleware.o: ..\Libaries\DSP\Include\arm_math.h
+.\objects\ahrs_middleware.o: ..\Libaries\CMSIS\core_cm4.h
+.\objects\ahrs_middleware.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ahrs_middleware.o: ..\Libaries\CMSIS\core_cmInstr.h
+.\objects\ahrs_middleware.o: ..\Libaries\CMSIS\core_cmFunc.h
+.\objects\ahrs_middleware.o: ..\Libaries\CMSIS\core_cmSimd.h
+.\objects\ahrs_middleware.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\ahrs_middleware.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
+.\objects\ahrs_middleware.o: ..\main\main.h

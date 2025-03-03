@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libaries\CMSIS -I ..\Libaries\FWLIB\inc -I ..\Libaries -I ..\FreeRTOS -I ..\FreeRTOS\include -I ..\FreeRTOS\portable -I ..\FreeRTOS\portable\MemMang -I ..\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\Libaries\startup -I ..\Libaries\DSP\Include -I ..\Mylib\AHRS -I ..\Mylib\main -I ..\Mylib -I ..\APP -I ..\Tasks
+-I D:\ParticipateProjects\RM\DK\±ê×¼¿âÒÆÖ²\Standerd220223\Project\RTE
+-I F:\keil5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-I F:\keil5\ARM\PACK\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F427xx -DSTM32F427X -DUSE_STDPERIPH_DRIVER -D__FPU_USED -D__FPU_PRESENT -DARM_MATH_CM4 -D__CC_ARM -DARM_MATH_MATRIX_CHECK -DARM_MATH_ROUNDING
+-o .\objects\start_task.o --omf_browse .\objects\start_task.crf --depend .\objects\start_task.d --feedback ".\Objects\standard.fed" "..\Tasks\start_task.c"

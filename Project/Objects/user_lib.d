@@ -1,0 +1,11 @@
+.\objects\user_lib.o: ..\Mylib\user_lib.c
+.\objects\user_lib.o: ..\Mylib\user_lib.h
+.\objects\user_lib.o: ..\main\main.h
+.\objects\user_lib.o: ..\Libaries\DSP\Include\arm_math.h
+.\objects\user_lib.o: ..\Libaries\CMSIS\core_cm4.h
+.\objects\user_lib.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\user_lib.o: ..\Libaries\CMSIS\core_cmInstr.h
+.\objects\user_lib.o: ..\Libaries\CMSIS\core_cmFunc.h
+.\objects\user_lib.o: ..\Libaries\CMSIS\core_cmSimd.h
+.\objects\user_lib.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\user_lib.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
